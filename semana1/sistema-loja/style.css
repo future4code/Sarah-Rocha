@@ -1,9 +1,36 @@
+html, body{
+    height: 100%;
+}
+
 body {
 background-color: azure;
 }
 
-.cabeçalho {
+#menu {
+display: inline;
+margin-left: 30%;
+margin-right: 30%;
+padding-bottom: 30%;
+text-align: center;
+}
+
+#menu li {
 display: inline-block;
-margin-right: 50%;
-margin-left: 50%;
+padding: 10px;
+}
+
+header {
+position: absolute;
+top: 0px;
+width: 100%;
+text-align: center;
+}
+
+footer {
+background-color:blanchedalmond;
+color: black;
+position: absolute;
+bottom: 0px;
+width: 100%;
+text-align: center;
 }
