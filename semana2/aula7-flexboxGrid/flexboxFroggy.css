@@ -1,0 +1,196 @@
+/* EXERCICIO No1 *\
+
+#pond {
+  display: flex;
+justify-content: flex-end;
+}
+
+/* EXERCICIO No2 *\
+
+#pond {
+  display: flex;
+justify-content: center;
+}
+
+/* EXERCICIO No3 *\
+
+#pond {
+  display: flex;
+justify-content: space-around;
+}
+
+/* EXERCICIO No4 *\
+
+#pond {
+  display: flex;
+justify-content: space-between;
+}
+
+/* EXERCICIO No5 *\
+
+#pond {
+  display: flex;
+align-items: flex-end;
+}
+
+/* EXERCICIO No6 *\
+
+#pond {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* EXERCICIO No7 *\
+
+#pond {
+  display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+
+/* EXERCICIO No8 *\
+
+#pond {
+  display: flex;
+flex-direction: row-reverse;
+}
+
+/* EXERCICIO No9 *\
+
+#pond {
+  display: flex;
+flex-direction: column;
+}
+
+/* EXERCICIO No10 *\
+
+#pond {
+  display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+}
+
+/* EXERCICIO No11 *\
+
+#pond {
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+/* EXERCICIO No12 *\
+
+#pond {
+  display: flex;
+flex-direction: column-reverse;
+justify-content: space-between;
+}
+
+/* EXERCICIO No13 *\
+
+#pond {
+  display: flex;
+flex-direction: row-reverse;
+align-items: flex-end;
+justify-content: center;
+}
+
+/* EXERCICIO No14 *\
+
+#pond {
+  display: flex;
+}
+
+.yellow {
+order: +1;
+}
+
+/* EXERCICIO No15 *\
+
+#pond {
+  display: flex;
+}
+
+.red {
+order: -3;
+}
+
+/* EXERCICIO No16 *\
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self: flex-end;
+}
+
+/* EXERCICIO No17 *\
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+order: +1;
+align-self: flex-end;
+}
+
+/* EXERCICIO No18 *\
+
+#pond {
+  display: flex;
+flex-wrap: wrap;
+}
+
+/* EXERCICIO No19 *\
+
+#pond {
+  display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+/* EXERCICIO No20 *\
+
+#pond {
+  display: flex;
+flex-flow: wrap column;
+}
+
+/* EXERCICIO No21 *\
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content: flex-start;
+}
+
+/* EXERCICIO No22 *\
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content: flex-end;
+}
+
+/* EXERCICIO No23 *\
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+flex-direction: column-reverse;
+align-content: center;
+}
+
+/* EXERCICIO No24 *\
+
+#pond {
+  display: flex;
+flex-flow: wrap-reverse column-reverse;
+align-content: space-between;
+justify-content: center;
+}
