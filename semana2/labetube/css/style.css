@@ -1,0 +1,35 @@
+html, body {
+background: 100%;
+margin: 0%;
+padding: 0%;
+background-color: black;
+}
+
+header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 110px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.search {
+left: 50%;
+top: 50%;
+}
+
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position:absolute;
+    font-family:monospace;
+    bottom:0;
+    width:100%;
+    height: 30px;
+}
