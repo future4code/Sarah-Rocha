@@ -2,22 +2,54 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
 } from "react-router-dom";
-import HomePage from "./Pages/HomePage";
-import AdminHomePage from "./Pages/AdminHomePage";
-import ApplicationFormPage from "./Pages/ApplicationFormPage";
-import CreateTripPage from "./Pages/CreateTripPage";
-import ListTripPage from "./Pages/ListTripPage";
-import TripDetailsPage from "./Pages/TripDetailsPage";
-import LoginPage from "./Pages/LoginPage";
+import styled from "styled-components";
+import HomePage from "./Pages/HomePage/HomePage";
+import AdminHomePage from "./Pages/AdminHomePage/AdminHomePage";
+import ApplicationFormPage from "./Pages/ApplicationFormPage/ApplicationFormPage";
+import CreateTripPage from "./Pages/CreateTripPage/CreateTripPage";
+import ListTripsPage from "./Pages/ListTripsPage/ListTripsPage";
+import LoginPage from "./Pages/LoginPage/LoginPage";
+import TripDetailsPage from "./Pages/TripDetailsPage/TripDetailsPage";
+
+const AppContainer = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 16px;
+   `
 
 const App = () => {
   return (
-    <div>
-      <h1>Base Labex</h1>
-    </div>
+    <Router>
+      <AppContainer>
+        <Switch>
+          <Route path="/criar-viagem">
+          <CreateTripPage/> 
+          </Route>
+          <Route path="/admin">
+          <AdminHomePage/> 
+          </Route>
+          <Route path="/viagens">
+          <ListTripsPage/> 
+          </Route>
+          <Route path="/login">
+          <LoginPage/> 
+          </Route>
+          <Route path="/detalhes-viagens">
+          <TripDetailsPage/> 
+          </Route>
+          <Route path="/inscrever">
+          <ApplicationFormPage/> 
+          </Route>
+          <Route path="/home">
+          <HomePage/>
+          </Route>
+        </Switch>
+     </AppContainer>
+    </Router>
   );
 }
 
-export default App
+export default App;
