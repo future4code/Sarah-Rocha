@@ -43,7 +43,7 @@ const App = () => {
           <Route path="/inscrever">
           <ApplicationFormPage/> 
           </Route>
-          <Route path="/home">
+          <Route path="/">
           <HomePage/>
           </Route>
         </Switch>
