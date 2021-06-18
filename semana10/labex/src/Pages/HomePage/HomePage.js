@@ -1,8 +1,8 @@
 import React from 'react'
 import { Typography } from '@material-ui/core';
-import { Button } from '@material-ui/core';
 import { ButtonsContainer } from './styles';
 import { Link } from 'react-router-dom';
+import ButtonStyle from '../../Components/ButtonStyle/ButtonStyle';
 
 const HomePage = () => {
     return <div>
@@ -10,10 +10,10 @@ const HomePage = () => {
     <div>
         <ButtonsContainer>
         <Link to={'/login'}>
-        <Button variant={'contained'} color={'primary'}>Área Administrativa</Button>
+        <ButtonStyle button={'Área Administrativa'}/>
         </Link>
         <Link to={'/viagens'}>
-        <Button variant={'contained'} color={'primary'}>Lista de Viagens</Button>
+        <ButtonStyle button={'Lista de Viagens'}/>
         </Link>
         </ButtonsContainer>
     </div>

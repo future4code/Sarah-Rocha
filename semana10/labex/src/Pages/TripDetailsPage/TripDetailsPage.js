@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import PageTitle from '../../Components/PageTitle';
 
 const TripDetailsPage = () => {
-    return <div><h1>Trip Details Page</h1></div>
+    return <div>
+        <PageTitle title={'Detalhes da Viagem'}/>
+    </div>
 }
 
 export default TripDetailsPage

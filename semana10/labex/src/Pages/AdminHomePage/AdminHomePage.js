@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import PageTitle from '../../Components/PageTitle';
 
 const AdminHomePage = () => {
-    return <div><h1>AdminHomePage</h1></div>
+    return <div>
+        <PageTitle title={'Lista de Viagens'}/>
+    </div>
 }
 
 export default AdminHomePage

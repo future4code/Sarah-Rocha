@@ -8,7 +8,7 @@ import styled from "styled-components";
 import HomePage from "./Pages/HomePage/HomePage";
 import AdminHomePage from "./Pages/AdminHomePage/AdminHomePage";
 import ApplicationFormPage from "./Pages/ApplicationFormPage/ApplicationFormPage";
-import CreateTripPage from "./Pages/CreateTripPage/CreateTripPage";
+import CreateTripsPage from "./Pages/CreateTripsPage/CreateTripsPage";
 import ListTripsPage from "./Pages/ListTripsPage/ListTripsPage";
 import LoginPage from "./Pages/LoginPage/LoginPage";
 import TripDetailsPage from "./Pages/TripDetailsPage/TripDetailsPage";
@@ -26,7 +26,7 @@ const App = () => {
       <AppContainer>
         <Switch>
           <Route path="/criar-viagem">
-          <CreateTripPage/> 
+          <CreateTripsPage/> 
           </Route>
           <Route path="/admin">
           <AdminHomePage/> 
