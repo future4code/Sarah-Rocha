@@ -1,11 +1,11 @@
 import React from 'react';
-import PageTitle from '../../Components/PageTitle';
-import ButtonStyle from '../../Components/ButtonStyle';
+import PageTitle from '../../Components/PageTitle/PageTitle';
+import ButtonStyle from '../../Components/ButtonStyle/ButtonStyle';
 import { Link } from 'react-router-dom';
 import { ButtonsContainer } from './styles';
 import { Card, CardContent} from '@material-ui/core';
-import CardSub from '../../Components/CardSub';
-import CardTitle from '../../Components/CardTitle';
+import CardSub from '../../Components/CardSub/CardSub';
+import CardTitle from '../../Components/CardTitle/CardTitle';
 
 const ListTripsPage = () => {
     return <div>

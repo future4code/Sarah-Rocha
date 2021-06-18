@@ -5,6 +5,7 @@ import { CreateTripsForm } from './styles';
 import { Link } from 'react-router-dom';
 import { ButtonsForm } from './styles';
 import ButtonStyle from '../../Components/ButtonStyle/ButtonStyle';
+import { KeyboardDatePicker} from '@material-ui/pickers';
 
 const CreateTripPage = () => {
     return <div>
@@ -12,9 +13,15 @@ const CreateTripPage = () => {
         <CreateTripsForm>
             <TextField label={'Nome'}/>
             <TextField label={'Planeta'}/>
-            <TextField label={'Data'}/>
+            <KeyboardDatePicker
+              disableToolbar
+              variant="inline"
+              format="MM/dd/yyyy"
+              margin="normal"
+              label="Data"
+        />
             <TextField label={'Descrição'}/>
-            <TextField label={'Duração em dias'}/>
+            <TextField label={'Duração em dias'} type={'number'}/>
             </CreateTripsForm>
             <ButtonsForm>
         <ButtonStyle button={'Criar'}/>

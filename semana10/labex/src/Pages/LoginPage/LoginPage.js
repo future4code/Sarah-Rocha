@@ -3,9 +3,9 @@ import { TextField } from '@material-ui/core';
 import { LoginForm } from './styles';
 import { Link } from 'react-router-dom';
 import { ButtonsForm } from './styles';
-import PageTitle from '../../Components/PageTitle';
+import PageTitle from '../../Components/PageTitle/PageTitle';
 import { Button } from '@material-ui/core';
-import ButtonStyle from '../Components/ButtonStyle/ButtonStyle';
+import ButtonStyle from '../../Components/ButtonStyle/ButtonStyle';
 
 const LoginPage = () => {
     return <div>
